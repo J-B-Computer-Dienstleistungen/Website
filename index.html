@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,74 @@
     <title>J.B. Computer-Dienstleistungen</title>
 </head>
 <body>
-    <div id="site-nav"></div>
-    <div class="hero">
-        <h1>Willkommen bei J.B. Computer-Dienstleistungen</h1>
-        <p>
-            Ihre IT-Hilfe in Baselland einfach, persönlich und bezahlbar. 
-            Wir unterstützen Sie bei allen IT-Fragen, von der Einrichtung Ihrer Geräte bis zur Automatisierung von Arbeitsabläufen. 
-            Wir sind für Sie da.
-        </p>
-        <button>Jetzt Hilfe anfragen</button>
-    </div>
+    <main>
+        <div id="site-nav"></div>
+        <div class="hero">
+            <h1>Willkommen bei J.B. Computer-Dienstleistungen</h1>
+            <p>
+                Ihre IT-Hilfe in Baselland einfach, persönlich und bezahlbar. 
+                Wir unterstützen Sie bei allen IT-Fragen, von der Einrichtung Ihrer Geräte bis zur Automatisierung von Arbeitsabläufen. 
+                Wir sind für Sie da.
+            </p>
+            <button class="cta-btn">Jetzt Hilfe anfragen</button>
+        </div>
+
+        <section class="services">
+            <h2>Unsere Dienstleistungen</h2>
+            <p>
+                Wir bieten massgeschneiderte IT-Dienstleistungen für Privatpersonen. 
+                Unser Fokus liegt auf verständlicher Beratung, geduldiger Unterstützung und praktischen Lösungen.
+            </p>
+
+            <h2>It-Hilfe privat</h2>
+            <p>
+                Wir helfen Ihnen bei der Einrichtung Ihrer Geräte, erklären Programme und unterstützen Sie bei E-Mail, Cloud-Backup und Passwortmanagern. 
+                Ihre Sicherheit liegt uns am Herzen.
+            </p>
+        </section>
+
+        <section class="motto">
+            <h3>
+                Wir wissen, wie frustrierend IT-Probleme sein können.
+            </h3>
+        </section>
+
+        <section class="comments">
+            <h2>Kommentare</h2>
+            <div class="comments-display"></div>
+
+            <h2>Kommentar hinzufügen</h2>
+            <form class="add-comment">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Kommentar:</label>
+                <textarea id="comment" name="comment" required></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+
+        <section class="contact">
+            <h2>Kontakt</h2>
+            <p>
+                Baselland, Schweiz
+            </p>
+
+            <h4>Öffnungszeiten</h4>
+            <p>Nach Vereinbarung</p>
+
+            <h4>Kontakt</h4>
+            <address>
+                <p>Telefon: +41 79 123 45 67</p>
+                <p>Email: <a href="mailto:info@computerdienstleistungen.store">info@computerdienstleistungen.store</a></p>
+            </address>
+
+            <h4>Soziale Netzwerke</h4>
+        </section>
+    </main>
+
+
     <div id="site-footer"></div>
     <div id="cookie-banner"></div>
     <script src="assets/scripts/loadComponents.js" defer></script>

@@ -3,3 +3,14 @@
     text-align: center;
     color: #ffffff;
 }
+
+.cta-btn {
+    background-color: #ffbf00;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
