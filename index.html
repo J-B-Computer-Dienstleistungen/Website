@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/global.css">
-    <title>J.B. Computer-Dienstleistungen</title>
+    <title>J.B. Computer-Dienstleistungen - IT-Hilfe in Baselland</title>
 </head>
 <body>
     <main>
@@ -20,19 +22,23 @@
             <button class="cta-btn">Jetzt Hilfe anfragen</button>
         </div>
 
-        <section class="services">
-            <h2>Unsere Dienstleistungen</h2>
-            <p>
-                Wir bieten massgeschneiderte IT-Dienstleistungen für Privatpersonen. 
-                Unser Fokus liegt auf verständlicher Beratung, geduldiger Unterstützung und praktischen Lösungen.
-            </p>
+        <div class="container">
+            <section class="services">
+                <h2 class="section-title">Unsere Dienstleistungen</h2>
+                <p>
+                    Wir bieten massgeschneiderte IT-Dienstleistungen für Privatpersonen. 
+                    Unser Fokus liegt auf verständlicher Beratung, geduldiger Unterstützung und praktischen Lösungen.
+                </p>
 
-            <h2>It-Hilfe privat</h2>
-            <p>
-                Wir helfen Ihnen bei der Einrichtung Ihrer Geräte, erklären Programme und unterstützen Sie bei E-Mail, Cloud-Backup und Passwortmanagern. 
-                Ihre Sicherheit liegt uns am Herzen.
-            </p>
-        </section>
+                <img src="assets/images/index/kundengespraech.jpeg" alt="kundengespraech">
+
+                <h2 class="section-title">It-Hilfe privat</h2>
+                <p>
+                    Wir helfen Ihnen bei der Einrichtung Ihrer Geräte, erklären Programme und unterstützen Sie bei E-Mail, Cloud-Backup und Passwortmanagern. 
+                    Ihre Sicherheit liegt uns am Herzen.
+                </p>
+            </section>
+        </div>
 
         <section class="motto">
             <h3>
@@ -40,44 +46,51 @@
             </h3>
         </section>
 
-        <section class="comments">
-            <h2>Kommentare</h2>
-            <div class="comments-display"></div>
+        <div class="container">
+            <section class="comments">
+                <h2 class="section-title">Kommentare</h2>
+                <div class="comments-display"></div>
 
-            <h2>Kommentar hinzufügen</h2>
-            <form class="add-comment">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <h2 class="section-title">Kommentar hinzufügen</h2>
+                <form class="add-comment">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="comment">Kommentar:</label>
-                <textarea id="comment" name="comment" required></textarea>
+                    <label for="comment">Kommentar:</label>
+                    <textarea id="comment" name="comment" required></textarea>
 
-                <button type="submit">Absenden</button>
-            </form>
-        </section>
+                    <button type="submit">Absenden</button>
+                </form>
+            </section>
+        </div>
 
-        <section class="contact">
-            <h2>Kontakt</h2>
-            <p>
-                Baselland, Schweiz
-            </p>
+        <div class="container">
+            <section class="contact">
+                <h2 class="section-title">Kontakt</h2>
+                <p>
+                    Baselland, Schweiz
+                </p>
 
-            <h4>Öffnungszeiten</h4>
-            <p>Nach Vereinbarung</p>
+                <h4>Öffnungszeiten</h4>
+                <p>Nach Vereinbarung</p>
 
-            <h4>Kontakt</h4>
-            <address>
-                <p>Telefon: +41 79 123 45 67</p>
-                <p>Email: <a href="mailto:info@computerdienstleistungen.store">info@computerdienstleistungen.store</a></p>
-            </address>
+                <h4>Kontakt</h4>
+                <address>
+                    <p>Telefon: +41 79 123 45 67</p>
+                    <p>Email: <a href="mailto:info@computerdienstleistungen.store">info@computerdienstleistungen.store</a></p>
+                </address>
 
-            <h4>Soziale Netzwerke</h4>
-        </section>
+                <h4>Soziale Netzwerke</h4>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </section>
+        </div>
     </main>
 
+    <div id="cookie-banner"></div>
 
     <div id="site-footer"></div>
-    <div id="cookie-banner"></div>
     <script src="assets/scripts/loadComponents.js" defer></script>
 </body>
 </html>
