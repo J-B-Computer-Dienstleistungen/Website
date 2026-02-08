@@ -3,7 +3,7 @@
     const components = [
         { id: 'site-nav', url: 'components/navigation.html' },
         { id: 'site-footer', url: 'components/footer.html' },
-        { id: 'cookie-banner', url: 'components/cookie-banner-html' }
+        { id: 'cookie-banner', url: 'components/cookie-banner.html' }
     ];
 
     function loadComponent(item) {
