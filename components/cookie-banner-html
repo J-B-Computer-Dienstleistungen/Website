@@ -1,6 +1,8 @@
 <div class="cookie-banner-content">
     <i class="fa-solid fa-cookie-bite"></i>
     <p>Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website machen.</p>
-    <button>Verstanden</button>
-    <button>Ablehnen</button>
+    <div class="cookie-buttons">
+        <button>Verstanden</button>
+        <button>Ablehnen</button>
+    </div>
 </div>
