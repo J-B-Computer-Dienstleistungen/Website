@@ -20,11 +20,47 @@ body {
     color: white;
 }
 
+
+.logo-bereich {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.firma_logo {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.head {
+    font-size: 1.5rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav ul li {
+    cursor: pointer;
+}
+
+.main-nav ul li:hover {
+    color: #ffce00;
+}
+
 .main-footer {
     background-color: #333;
     color: white;
     padding: 2rem;
     text-align: center;
+    margin-top: 20px;
 }
 
 .main-footer a {
